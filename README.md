@@ -10,6 +10,16 @@ The program loads a `.wav` audio file, records the audio data using the `SpeechR
 
 The project is currently configured to recognize **Persian (Iranian)** speech using the `fa-IR` language setting.
 
+## Features
+
+* 🎙️ Speech recognition
+* 🔊 Audio file processing
+* 📝 Speech-to-text conversion
+* 🇮🇷 Persian language recognition
+* 🎧 WAV audio file support
+* ☁️ Google Speech Recognition service
+* 🐍 Simple Python implementation
+
 ## Contributing
 
 Contributions, suggestions, and bug reports are welcome.
