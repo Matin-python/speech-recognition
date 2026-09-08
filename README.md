@@ -1,4 +1,6 @@
-# Speech Recognition
+# 🎙️ Speech Recognition using Python
+
+A Python speech recognition project that converts spoken Persian language from an audio file into text using the SpeechRecognition library and Google's Speech Recognition service.
 
 ## Contributing
 
