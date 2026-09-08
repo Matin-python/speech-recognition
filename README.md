@@ -20,6 +20,11 @@ The project is currently configured to recognize **Persian (Iranian)** speech us
 * ☁️ Google Speech Recognition service
 * 🐍 Simple Python implementation
 
+## Technologies Used
+
+* Python
+
+
 ## Contributing
 
 Contributions, suggestions, and bug reports are welcome.
