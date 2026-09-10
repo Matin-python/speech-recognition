@@ -107,6 +107,40 @@ print(text)
 
 The `language='fa-IR'` parameter tells the service to recognize the speech as Persian.
 
+## Output
+
+The program prints the recognized text in the terminal.
+
+For example:
+
+```text
+Recognized Text:
+سلام، این یک تست تشخیص صدا است.
+```
+
+The exact output depends on the content and quality of the input audio.
+
+## Complete Code
+
+```python
+import speech_recognition as sr
+
+r = sr.Recognizer()
+
+voice = sr.AudioFile("tf.wav")
+
+with voice as source:
+    audio = r.record(source)
+
+print(audio)
+
+text = r.recognize_google(
+    audio,
+    language='fa-IR'
+)
+
+print(text)
+```
 
 ## Contributing
 
