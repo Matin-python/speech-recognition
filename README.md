@@ -215,6 +215,29 @@ Or install the dependencies using `requirements.txt`:
 pip install -r requirements.txt
 ```
 
+## How to Run
+
+Make sure the audio file is located in the project directory:
+
+```text
+tf.wav
+```
+
+Then run the Python script:
+
+```bash
+python speech_recognition.py
+```
+
+The program will:
+
+1. Create a speech recognizer.
+2. Load the WAV audio file.
+3. Read the audio data.
+4. Send the audio to Google's Speech Recognition service.
+5. Recognize the Persian speech.
+6. Convert the speech into text.
+7. Print the recognized text.
 
 
 ## Contributing
