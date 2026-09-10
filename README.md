@@ -45,6 +45,27 @@ text = r.recognize_google(audio, language='fa-IR')
 The `fa-IR` language code specifies Persian as the recognition language.
 
 
+## How It Works
+
+The project follows these main steps:
+
+```text
+Load WAV Audio File
+        ↓
+Create Recognizer
+        ↓
+Read Audio Data
+        ↓
+Send Audio to Google
+        ↓
+Recognize Persian Speech
+        ↓
+Convert Speech to Text
+        ↓
+Print Result
+```
+
+
 ## Contributing
 
 Contributions, suggestions, and bug reports are welcome.
