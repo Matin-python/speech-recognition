@@ -189,6 +189,34 @@ Speech-Recognition/
 └── README.md
 ```
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Matin-python/Speech-Recognition.git
+```
+
+Go to the project directory:
+
+```bash
+cd Speech-Recognition
+```
+
+Install the required library:
+
+```bash
+pip install SpeechRecognition
+```
+
+Or install the dependencies using `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+
 ## Contributing
 
 Contributions, suggestions, and bug reports are welcome.
