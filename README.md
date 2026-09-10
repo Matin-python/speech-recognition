@@ -92,6 +92,21 @@ with voice as source:
 
 The resulting audio object can then be sent to the speech recognition service.
 
+## Google Speech Recognition
+
+The project uses Google's Speech Recognition service to convert the recorded audio into text.
+
+```python
+text = r.recognize_google(
+    audio,
+    language='fa-IR'
+)
+
+print(text)
+```
+
+The `language='fa-IR'` parameter tells the service to recognize the speech as Persian.
+
 
 ## Contributing
 
