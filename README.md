@@ -23,6 +23,26 @@ The project is currently configured to recognize **Persian (Iranian)** speech us
 ## Technologies Used
 
 * Python
+* SpeechRecognition
+* Google Speech Recognition API
+
+## Input
+
+The program uses a WAV audio file as its input:
+
+```text
+tf.wav
+```
+
+The audio file contains the speech that will be converted into text.
+
+The current project is configured for Persian speech recognition:
+
+```python
+text = r.recognize_google(audio, language='fa-IR')
+```
+
+The `fa-IR` language code specifies Persian as the recognition language.
 
 
 ## Contributing
