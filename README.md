@@ -142,6 +142,53 @@ text = r.recognize_google(
 print(text)
 ```
 
+## Output
+
+The program prints the recognized text in the terminal.
+
+For example:
+
+```text
+Recognized Text:
+سلام، این یک تست تشخیص صدا است.
+```
+
+The exact output depends on the content and quality of the input audio.
+
+## Complete Code
+
+```python
+import speech_recognition as sr
+
+r = sr.Recognizer()
+
+voice = sr.AudioFile("tf.wav")
+
+with voice as source:
+    audio = r.record(source)
+
+print(audio)
+
+text = r.recognize_google(
+    audio,
+    language='fa-IR'
+)
+
+print(text)
+```
+
+## Project Structure
+
+```text
+Speech-Recognition/
+│
+├── tf.wav
+├── Speech_Recognition.py
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
 ## Contributing
 
 Contributions, suggestions, and bug reports are welcome.
