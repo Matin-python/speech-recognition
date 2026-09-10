@@ -65,6 +65,33 @@ Convert Speech to Text
 Print Result
 ```
 
+## Speech Recognition
+
+The `SpeechRecognition` library is used to process the audio.
+
+First, a recognizer object is created:
+
+```python
+import speech_recognition as sr
+
+r = sr.Recognizer()
+```
+
+The WAV file is then loaded:
+
+```python
+voice = sr.AudioFile("tf.wav")
+```
+
+The audio data is recorded from the file:
+
+```python
+with voice as source:
+    audio = r.record(source)
+```
+
+The resulting audio object can then be sent to the speech recognition service.
+
 
 ## Contributing
 
